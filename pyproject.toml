@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=42","wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chuhelps"        # pip install name
+version = "0.0.0"            # initial version
+description = "Common helper functions"
+readme = "README.md"
+authors = [{name="Your Name", email="you@example.com"}]
+dependencies = []            # any runtime deps (e.g., numpy>=1.18)
